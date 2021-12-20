@@ -39,20 +39,41 @@ html{
     text-align: center;
 }
 
+#IdLogP{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    top: 12%;
+    left: 15%;
+    font-size: 20px;
+    
+}
+
 #IdLog{
+    position: absolute;
+    width: 70%;
+    height: 5%;
+    left: 15%;
+    top: 25%;
+    background: #C4C4C4;
+    border-radius: 1vh;
+    
+}
+
+#IdNumP{
     position: absolute;
     width: 70%;
     height: 10%;
     left: 15%;
-    top: 25%;
+    top: 35%;
+    font-size: 20px;
     
-    background: #C4C4C4;
-    border-radius: 1vh;
 }
+
 #IdNum{
     position: absolute;
     width: 70%;
-    height: 10%;
+    height: 5%;
     left: 15%;
     top: 45%;
     
@@ -68,6 +89,26 @@ html{
     
     background: #C4C4C4;
     border-radius: 1vh;
+}
+
+#BotlOG2{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 8%;
+    bottom: 8%;
+    align-items: center;
+
+    background: #2A66FF;
+    border-radius: 12vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 6vh;
+    font-size: 3vh;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 #BotlOG{
@@ -133,7 +174,7 @@ color: #F3F1F1;
 #TipId{
     position: absolute;
     width: 40%;
-    height: 15%;
+    height: 10%;
     left: 5%;
     top: 10%;
 
@@ -149,11 +190,28 @@ color: #F3F1F1;
 
     text-align: center;
 }
-
-#TipNum{
+#TipIdP{
     position: absolute;
     width: 40%;
     height: 15%;
+    left: 5%;
+    top: 2%;
+
+    
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
+#TipNum{
+    position: absolute;
+    width: 40%;
+    height: 10%;
     right: 5%;
     top: 10%;
 
@@ -169,7 +227,24 @@ color: #F3F1F1;
 
     text-align: center;
 }
+#TipNumP{
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    right: 5%;
+    top: 2%;
 
+    
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
 #TipCel{
     position: absolute;
     width: 40%;

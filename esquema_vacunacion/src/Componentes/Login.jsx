@@ -14,11 +14,14 @@ return (
         <img src={Image.Tono} alt="Tono.png" id="tigre"/>
         <img src={Image.Logo} alt="Logo.png" id="Logo"/>
         <div id="RectLogin">
-            <div id="IdLog"></div>
-            <div id="IdNum"></div>
-            <div id="IdCon"></div>
+            <div ><p id="IdLogP"> Ingrese su documento de identidad</p><input type="text" id="IdLog"  /></div>
+            <div ><p id="IdNumP">Contraseña</p><input type="password" id="IdNum"  /></div>
+            
             <div id="BotlOG">
-                    <a href="/Registro1">Iniciar sesión</a>
+                    <a href="/principal">Iniciar sesión</a>
+            </div>
+            <div id="BotlOG2">
+                    <a href="/Registro1">Registro</a>
             </div>
         </div>
         </>

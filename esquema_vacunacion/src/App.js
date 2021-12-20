@@ -23,6 +23,7 @@ function App(){
             <div>
             <Routes>
                 <Route path="/Prueba" element={<Prueba />}/>
+                <Route path="/principal" element={<Alerta />}/>
                 <Route path="/Registro1" element={<Cuenta1 />}/>
                 <Route path="/Registro2" element={<Cuenta2 />}/>
                 <Route path="/Alerta" element={<Alerta />}/>
