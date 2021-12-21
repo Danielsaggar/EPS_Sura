@@ -8,13 +8,14 @@ const cuenta1 = ()=>{
                 <div id="BloqC">
                     Crea tu cuenta de SURA
                     <div id="BloqCC">
-                        <div id="TipNum">Número de identificación</div>
-                        <div id="TipId">Tipo de identificación</div>
-                        <div id="TipCel">Telefono celular</div>
-                        <div id="TipCe">Correo electronico</div>
-                        <div id="TipCCe">Confirmar correo electronico</div>
+                        <div > <p id="TipNumP">Número de identificación</p> <input id="TipNum" type="number" /></div>
+                        <div > <p id="TipIdP">Tipo de identificación</p><input id="TipId" type="text" /></div>
+                        <div > <p id="TipCelP">Telefono celular</p><input id="TipCel" type="number" /></div>
+                        <div > <p id="TipCePC">Contraseña</p><input id="TipCeC" type="number" /></div>
+                        <div > <p id="TipCeP">Correo electronico</p><input id="TipCe" type="text" /></div>
+                        <div > <p id="TipCCeP">Confirmar contraseña</p><input id="TipCCe" type="text" /></div>
                         <b id="CD"><input type="checkbox"/> Acepto los Terminos del servicio y la Politica de privacidad y ley de datos personales</b>
-                        <div id="TipSig"><a href="/Registro2">Siguiente</a></div>
+                        <div id="TipSig"><a href="/principal">Siguiente</a></div>
 
                     </div>
                 </div>

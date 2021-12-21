@@ -80,6 +80,26 @@ html{
     background: #C4C4C4;
     border-radius: 1vh;
 }
+#IdNumP2{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    left: 15%;
+    top: 55%;
+    font-size: 20px;
+    
+}
+
+#IdNum2{
+    position: absolute;
+    width: 70%;
+    height: 5%;
+    left: 15%;
+    top: 67%;
+    
+    background: #C4C4C4;
+    border-radius: 1vh;
+}
 #IdCon{
     position: absolute;
     width: 70%;
@@ -157,7 +177,7 @@ html{
 
     text-align: left;
 
-color: #F3F1F1;
+
 }
 
 #BloqCC{
@@ -176,7 +196,7 @@ color: #F3F1F1;
     width: 40%;
     height: 10%;
     left: 5%;
-    top: 10%;
+    top: 15%;
 
     background: #C4C4C4;
     border-radius: 4vh;
@@ -184,7 +204,7 @@ color: #F3F1F1;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
+    font-size: 25px;
     line-height: 12vh;
     /* identical to box height */
 
@@ -192,18 +212,18 @@ color: #F3F1F1;
 }
 #TipIdP{
     position: absolute;
-    width: 40%;
+    width: 50%;
     height: 15%;
-    left: 5%;
-    top: 2%;
+    left: 0%;
+    top: 0%;
 
     
     /* Tipografia */
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
-    line-height: 12vh;
+    font-size: 25px;
+    
     /* identical to box height */
 
     text-align: center;
@@ -213,7 +233,7 @@ color: #F3F1F1;
     width: 40%;
     height: 10%;
     right: 5%;
-    top: 10%;
+    top: 15%;
 
     background: #C4C4C4;
     border-radius: 4vh;
@@ -221,7 +241,7 @@ color: #F3F1F1;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
+    font-size: 25px;
     line-height: 12vh;
     /* identical to box height */
 
@@ -229,18 +249,18 @@ color: #F3F1F1;
 }
 #TipNumP{
     position: absolute;
-    width: 40%;
-    height: 15%;
-    right: 5%;
-    top: 2%;
+    width: 20%;
+    height: 10%;
+    left: 65%;
+    top: 0%;
 
     
     /* Tipografia */
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
-    line-height: 12vh;
+    font-size: 25px;
+    
     /* identical to box height */
 
     text-align: center;
@@ -248,7 +268,7 @@ color: #F3F1F1;
 #TipCel{
     position: absolute;
     width: 40%;
-    height: 15%;
+    height: 10%;
     left: 5%;
     top: 35%;
 
@@ -258,17 +278,34 @@ color: #F3F1F1;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
+    font-size: 25px;
     line-height: 12vh;
     /* identical to box height */
 
     text-align: center;
 }
+#TipCelP{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 15%;
+    top: 19%;
 
+  
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
 #TipCe{
     position: absolute;
     width: 40%;
-    height: 15%;
+    height: 10%;
     right: 5%;
     top: 35%;
 
@@ -278,17 +315,71 @@ color: #F3F1F1;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
+    font-size: 25px;
     line-height: 12vh;
     /* identical to box height */
 
     text-align: center;
 }
+#TipCeP{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 65%;
+    top: 19%;
 
+   
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
+#TipCeC{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    left: 5%;
+    top: 60%;
+
+    background: #C4C4C4;
+    border-radius: 4vh;
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
+#TipCePC{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 15%;
+    top: 42%;
+
+   
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
 #TipCCe{
     position: absolute;
     width: 40%;
-    height: 15%;
+    height: 10%;
     right: 5%;
     top: 60%;
 
@@ -298,13 +389,30 @@ color: #F3F1F1;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vh;
+    font-size: 25px;
     line-height: 12vh;
     /* identical to box height */
 
     text-align: center;
 }
+#TipCCeP{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 65%;
+    top: 42%;
 
+    
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 12vh;
+    /* identical to box height */
+
+    text-align: center;
+}
 #CD{
     position: absolute;
     width: 100%;
@@ -350,7 +458,26 @@ color: #F3F1F1;
     position: absolute;
     width: 30%;
     height: 10%;
-    right: 35%;
+    right:15%;
+    top: 60%;
+    border-color: #000;
+    background: #C4C4C4;
+    border-radius: 4vh;
+    /* Tipografia */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    line-height: 8vh;
+    /* identical to box height */
+
+    text-align: center;
+}
+#Alert2{
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    right: 55%;
     top: 60%;
 
     background: #C4C4C4;
@@ -365,7 +492,6 @@ color: #F3F1F1;
 
     text-align: center;
 }
-
 #Anuncio{
     position: absolute;
     width: 85%;
@@ -440,6 +566,42 @@ color: #F3F1F1;
     height: 15%;
     right: 5%;
     top: 25%;
+
+    background: #E5E5E5;
+    border-radius: 2vh;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    text-align: center;
+    color: #fff;
+}
+#AgC2{
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    left: 5%;
+    top: 45%;
+
+    background: #E5E5E5;
+    border-radius: 2vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vh;
+    text-align: center;
+    color: #fff;
+
+}
+
+#AgE2{
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    right: 5%;
+    top: 45%;
 
     background: #E5E5E5;
     border-radius: 2vh;
@@ -788,5 +950,23 @@ color: #F3F1F1;
     line-height: 8VH;
     text-align: left;
     color: #fff;    
+
+}
+#cerrarS{
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    left: 84%;
+    top: 5%;
+
+    background: #E5E5E5;
+    border-radius: 2vh;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+   
 
 }

@@ -12,17 +12,17 @@ const Vacunas = ()=>{
 return (
         <div id="FondoV">
             <div id="BoxV">
-                Revisión vacunas
-                <div id="Line1C">Crear la vacuna
-                    <div id="BL1C">
+                Creacion inventario de vacunas
+                <div id="Line1C">Nombre de vacuna
+                    <div ><input id="BL1C" type="text" />
                     </div>
                 </div>
                 <div id="Line2C">Cantidad en inventario
-                    <div id="BL1C"></div>
+                    <div ></div><input type="number" id="BL1C"/>
                 </div>
                 <div id="BT1V"><a href="/Seleccion">Guardar</a></div>
-                <div id="BT2V"><a href="/">Cancelar</a></div>
-                <div id="BT3V"><a href="/">Revisar esquema</a></div>
+                <div id="BT2V"><a href="/Seleccion">Cancelar</a></div>
+                
             </div>
         </div>
      

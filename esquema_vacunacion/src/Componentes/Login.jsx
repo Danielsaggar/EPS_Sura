@@ -16,9 +16,10 @@ return (
         <div id="RectLogin">
             <div ><p id="IdLogP"> Ingrese su documento de identidad</p><input type="text" id="IdLog"  /></div>
             <div ><p id="IdNumP">Contraseña</p><input type="password" id="IdNum"  /></div>
+            <div ><p id="IdNumP2">Tipo de usuario</p><input type="text" id="IdNum2"  /></div>
             
             <div id="BotlOG">
-                    <a href="/principal">Iniciar sesión</a>
+                    <a href="/seleccion">Iniciar sesión</a>
             </div>
             <div id="BotlOG2">
                     <a href="/Registro1">Registro</a>

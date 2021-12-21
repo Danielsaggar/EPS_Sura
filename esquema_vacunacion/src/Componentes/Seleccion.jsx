@@ -11,6 +11,7 @@ const Selec = ()=>{
 
 return (
         <>
+         <div id="cerrarS"><a href="/">Cerrar sesion</a></div>
         <img src={Image.Tono} alt="Tono.png" id="tigre"/>
         <img src={Image.Logo} alt="Logo.png" id="Logo"/>
         <div id="BloqS">
@@ -20,7 +21,8 @@ return (
             <div id="Bloq3">
                 <div id="AgC"><a href="/Citas">Agenda de citas</a></div>
                 <div id="AgE"><a href="/Esquema">Agendamiento según esquema</a></div>
-                <div id="AgV"><a href="/Vacunas">Revision de vacunas</a></div>
+                <div id="AgC2"><a href="/Vacunas">Revision de vacunas</a></div>
+                <div id="AgE2"><a href="/principal">Revision vacuna</a></div>
             </div>
         </div>
         </>
